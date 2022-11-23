@@ -1,2 +1,16 @@
 @import './base.css';
 
+
+.mt-6vh{margin-top:6vh;}
+.mt-8vh{margin-top:8vh;}
+.mt-10vh{margin-top:10vh;}
+.mt-12vh{margin-top:12vh;}
+.mt-14vh{margin-top:14vh;}
+.mt-16vh{margin-top:16vh;}
+.mt-18vh{margin-top:18vh;}
+.mt-20vh{margin-top:20vh;}
+.mt-22vh{margin-top:22vh;}
+
+
+.bg-light-gray{background-color: rgb(231, 231, 231);}
+.text-gray{color: rgb(168, 168, 168);}
