@@ -12,5 +12,16 @@
 .mt-22vh{margin-top:22vh;}
 
 
+
+.mb-6vh{margin-bottom:6vh;}
+.mb-8vh{margin-bottom:8vh;}
+.mb-10vh{margin-bottom:10vh;}
+
+
+
 .bg-light-gray{background-color: rgb(231, 231, 231);}
 .text-gray{color: rgb(168, 168, 168);}
+
+*{
+  /* border:2px solid black; */
+}
