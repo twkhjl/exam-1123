@@ -11,69 +11,29 @@ onMounted(() => {
 </script>
 
 <template>
-  <!-- Button trigger modal -->
-  <button
-    type="button"
-    class="btn btn-primary"
-    data-toggle="modal"
-    data-target="#exampleModal"
-  >
-    Launch demo modal
-  </button>
+  
 
-  <!-- Modal -->
-  <div
-    class="modal fade"
-    id="exampleModal"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button
-            type="button"
-            class="close"
-            data-dismiss="modal"
-            aria-label="Close"
-          >
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">...</div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">
-            Close
-          </button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div>
-    </div>
-  </div>
+  <h3>輪播效果測試</h3>
 
-  <div id="ttt">123</div>
-  <button id="btn">click me</button>
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="carouselExampleControls" class="carousel slide mb-4" data-ride="carousel">
     <div class="carousel-inner" style="">
       <div class="carousel-item active">
         <img
-          src="https://fakeimg.pl/1000x300/?text=img-1"
+          src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
           class="d-block mx-auto"
           alt="img-1"
         />
       </div>
       <div class="carousel-item">
         <img
-          src="https://fakeimg.pl/1000x300/?text=img-2"
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
           class="d-block mx-auto"
           alt="img-2"
         />
       </div>
       <div class="carousel-item">
         <img
-          src="https://fakeimg.pl/1000x300/?text=img-3"
+          src="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1150&q=80"
           class="d-block mx-auto"
           alt="img-3"
         />
@@ -102,11 +62,11 @@ onMounted(() => {
 
 <style scoped>
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 img {
   width: 100vw;
-  height: 40vh;
+  height: 70vh;
 }
 </style>

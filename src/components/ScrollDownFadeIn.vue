@@ -31,7 +31,7 @@ onMounted(() => {
 </script>
 
 <template>
-  Fade In Effect
+  <h3 class="mt-4">淡入捲動效果測試(往下捲動)</h3>
   <div class="alert alert-primary fade-in-section" role="alert">
     This is a primary alert—check it out!
   </div>

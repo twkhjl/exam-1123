@@ -4,7 +4,11 @@ import ScrollDownFadeInVue from '../components/ScrollDownFadeIn.vue';
 </script>
 
 <template>
-  home
+  <h2>首頁</h2>
+  <h3>
+    <RouterLink to="/reminder" class="mr-2">提醒事項測試</RouterLink>
+  </h3>
+  <hr>
   <CarouselVue></CarouselVue>
   <ScrollDownFadeInVue></ScrollDownFadeInVue>
   
